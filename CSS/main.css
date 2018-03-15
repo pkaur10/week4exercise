@@ -1,0 +1,44 @@
+body {
+	text-align: center;
+}
+
+.box {
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	
+}
+
+.red {
+	background-color: red;
+}
+
+.pink {
+	background-color: pink;
+}
+
+.purple {
+	background-color: purple;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+@media (max-width: 600px) {
+.pink, .purple {
+	display: none;
+}
+}
+
+@media (min-width: 1000px) {
+	.red, .pink, .purple, .yellow {
+		width: 100%;
+	}
+}
+
+.container {
+	height: 200px;
+	width: 200px;
+	background-color: gray;
+}
